@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UJJIVANA - Learn</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="nav-container">
+                <div class="nav-logo">
+                    <h2>UJJIVANA</h2>
+                </div>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="learn.html" class="nav-link active">Learn</a></li>
+                    <li class="nav-item"><a href="challenges.html" class="nav-link">Challenges</a></li>
+                    <li class="nav-item"><a href="leaderboard.html" class="nav-link">Leaderboard</a></li>
+                    <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
+                </ul>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="mission">
+            <div class="container">
+                <h2>Environmental Lessons</h2>
+                <p>Explore interactive lessons on important environmental topics. Complete quizzes to test your knowledge and earn points!</p>
+            </div>
+        </section>
+
+        <section class="lessons">
+            <div class="container">
+                <div class="lessons-container">
+                    <div class="lesson-card">
+                        <div class="lesson-image" style="background-color: #4caf50;"></div>
+                        <div class="lesson-content">
+                            <h3>Climate Change Basics</h3>
+                            <p>Learn about the causes and effects of climate change, and what we can do to reduce our carbon footprint.</p>
+                            <a href="#" class="cta-button">Start Lesson</a>
+                        </div>
+                    </div>
+                    
+                    <div class="lesson-card">
+                        <div class="lesson-image" style="background-color: #8bc34a;"></div>
+                        <div class="lesson-content">
+                            <h3>Plastic Pollution</h3>
+                            <p>Discover how plastic waste affects our oceans and marine life, and alternatives to single-use plastics.</p>
+                            <a href="#" class="cta-button">Start Lesson</a>
+                        </div>
+                    </div>
+                    
+                    <div class="lesson-card">
+                        <div class="lesson-image" style="background-color: #cddc39;"></div>
+                        <div class="lesson-content">
+                            <h3>Renewable Energy</h3>
+                            <p>Explore different types of renewable energy sources and how they can replace fossil fuels.</p>
+                            <a href="#" class="cta-button">Start Lesson</a>
+                        </div>
+                    </div>
+                    
+                    <div class="lesson-card">
+                        <div class="lesson-image" style="background-color: #ffeb3b;"></div>
+                        <div class="lesson-content">
+                            <h3>Biodiversity</h3>
+                            <p>Understand the importance of biodiversity and how human activities are threatening ecosystems.</p>
+                            <a href="#" class="cta-button">Start Lesson</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="quiz-container">
+                    <h3>Test Your Knowledge: Climate Change Quiz</h3>
+                    <div class="quiz-question">
+                        <p>1. What is the main cause of current climate change?</p>
+                        <div class="quiz-options">
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="a"> Natural cycles
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="b"> Human activities
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="c"> Solar fluctuations
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q1" value="d"> Volcanic activity
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-question">
+                        <p>2. Which of these is a greenhouse gas?</p>
+                        <div class="quiz-options">
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="a"> Carbon dioxide
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="b"> Oxygen
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="c"> Nitrogen
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q2" value="d"> Hydrogen
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="quiz-question">
+                        <p>3. What can individuals do to reduce their carbon footprint?</p>
+                        <div class="quiz-options">
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="a"> Use public transportation
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="b"> Reduce meat consumption
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="c"> Use energy-efficient appliances
+                            </label>
+                            <label class="quiz-option">
+                                <input type="radio" name="q3" value="d"> All of the above
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <button id="quiz-submit" class="quiz-submit">Submit Answers</button>
+                    
+                    <div id="quiz-result" class="quiz-result"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>UJJIVANA</h3>
+                    <p>Making environmental education interactive and fun for students.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="learn.html">Learn</a></li>
+                        <li><a href="challenges.html">Challenges</a></li>
+                        <li><a href="leaderboard.html">Leaderboard</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h3>Connect With Us</h3>
+                    <p>Email: info@ujjivana.org</p>
+                    <p>Phone: +91 9876543210</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 UJJIVANA. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
